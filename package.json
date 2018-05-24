@@ -11,7 +11,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "format": "prettier-standard 'src/**/*.js'",
+    "format": "prettier-standard 'src/*.js'",
     "precommint": "lint-staged",
     "eject": "react-scripts eject"
   },
