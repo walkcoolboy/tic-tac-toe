@@ -1,5 +1,8 @@
 import React from 'react'
+import { render } from 'react-dom'
 
-export default function App () {
-  return <h1>Tic-Tac-Toe</h1>
-}
+import { App } from './components'
+import registerServiceWorker from './registerServiceWorker'
+
+render(<App />, document.getElementById('root'))
+registerServiceWorker()
